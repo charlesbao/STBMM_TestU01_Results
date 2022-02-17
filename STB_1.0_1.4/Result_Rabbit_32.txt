@@ -1,0 +1,839 @@
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          Starting Rabbit:   nb = 4294967296
+          Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+***********************************************************
+HOST = XMAC.lan, Darwin
+
+STB_Bits
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 30,  n = 9988288,  r =  0,   s = 32,   L =   38,
+       Sparse =   TRUE
+
+       Number of bits = n = 9988288
+       Number of cells = 2^L =       274877906944
+       Expected number per cell =  1 /  27520.022
+       EColl = n^2 / (2k) =  181.4731098
+       Hashing =   TRUE
+
+       Collision test
+       CollisionOver:   density = n / k =  1 /   27520.02
+       Expected number of collisions = Mu =     181.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     5444.09
+Observed number of collisions         :     5441
+p-value of test                       :    0.51
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :    8246037565121
+  j =  1                              :        299637758
+  j =  2                              :             5441
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:01:54.76
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = XMAC.lan, Darwin
+
+STB_Bits
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N = 25,  n = 1973790,  r =  0,  t = 2
+
+
+-----------------------------------------------
+Max of all bit distances              :   22.00
+p-value of test                       :    0.50
+
+-----------------------------------------------
+CPU time used                    :  00:00:27.19
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = XMAC.lan, Darwin
+
+STB_Bits
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N = 25,  n = 986895,  r =  0,  t = 4
+
+
+-----------------------------------------------
+Max of all bit distances              :   11.00
+p-value of test                       :    0.04
+
+-----------------------------------------------
+CPU time used                    :  00:00:26.80
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = XMAC.lan, Darwin
+
+STB_Bits
+
+
+svaria_AppearanceSpacings test:
+-----------------------------------------------
+   N =  1,   Q = 134217728,   K = 134217728,   r = 0,   s = 30,   L = 15
+
+   Sequences of n = (K + Q)L =   4026531840 bits
+   Q = 134217728 initialization blocks
+   K = 134217728 blocks for the test
+   the blocks have L = 15 bits
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.41
+p-value of test                       :    0.66
+
+-----------------------------------------------
+CPU time used                    :  00:00:25.91
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = XMAC.lan, Darwin
+
+STB_Bits
+
+
+scomp_LinearComp test:
+-----------------------------------------------
+   N =  1,  n = 141056,  r =  0,    s = 32
+
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   10
+Chi2 statistic for size of jumps      :   29.43
+p-value of test                       :  1.1e-3
+
+
+-----------------------------------------------
+Normal statistic for number of jumps  :    0.86
+p-value of test                       :    0.19
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:10.71
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = XMAC.lan, Darwin
+
+STB_Bits
+
+
+scomp_LempelZiv test:
+-----------------------------------------------
+   N =  1,  n = 268435456,  r =  0,   s =   32,   k =   28
+
+
+-----------------------------------------------
+Normal statistic                      :    2.42
+p-value of test                       :  7.7e-3
+
+-----------------------------------------------
+CPU time used                    :  00:00:10.96
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = XMAC.lan, Darwin
+
+STB_Bits
+
+
+sspectral_Fourier1 test:
+-----------------------------------------------
+   N =  1,  n = 1048576,  r =  0,   s =   32,   k =   20
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.78
+p-value of test                       :    0.78
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = XMAC.lan, Darwin
+
+STB_Bits
+
+
+sspectral_Fourier3 test:
+-----------------------------------------------
+   N = 261632,  n = 16384,  r =  0,   s =   32,   k =   14
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    : 7.11e-3
+p-value of test                       :    0.66
+
+Kolmogorov-Smirnov- statistic = D-    : 6.56e-3
+p-value of test                       :    0.70
+
+Anderson-Darling statistic = A2       :    0.27
+p-value of test                       :    0.96
+
+-----------------------------------------------
+CPU time used                    :  00:01:13.25
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = XMAC.lan, Darwin
+
+STB_Bits
+
+
+sstring_LongestHeadRun test:
+-----------------------------------------------
+   N =  1,  n = 600,  r =  0,   s = 32,   L = 7158272
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    8
+Chi-square statistic                  :   13.28
+p-value of test                       :    0.10
+
+-----------------------------------------------
+Global longest run of 1               :   33.00
+p-value of test                       :    0.22
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:36.87
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = XMAC.lan, Darwin
+
+STB_Bits
+
+
+sstring_PeriodsInStrings test:
+-----------------------------------------------
+   N =  1,  n = 134217728,  r =  0,   s =   31
+
+
+-----------------------------------------------
+Number of degrees of freedom          :  269
+Chi-square statistic                  :  265.52
+p-value of test                       :    0.55
+
+-----------------------------------------------
+CPU time used                    :  00:00:24.48
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = XMAC.lan, Darwin
+
+STB_Bits
+
+
+sstring_HammingWeight test:
+-----------------------------------------------
+   N =  1,  n = 134217728,  r =  0,   s = 32,   L = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   28
+Chi-square statistic                  :   21.45
+p-value of test                       :    0.81
+
+-----------------------------------------------
+CPU time used                    :  00:00:23.99
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = XMAC.lan, Darwin
+
+STB_Bits
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 134217728,  r =  0,   s = 32,   L = 32
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -1.29
+p-value of test                       :    0.90
+
+-----------------------------------------------
+CPU time used                    :  00:00:24.01
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = XMAC.lan, Darwin
+
+STB_Bits
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 67108864,  r =  0,   s = 32,   L = 64
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.44
+p-value of test                       :    0.67
+
+-----------------------------------------------
+CPU time used                    :  00:00:24.23
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = XMAC.lan, Darwin
+
+STB_Bits
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 33554432,  r =  0,   s = 32,   L = 128
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.38
+p-value of test                       :    0.65
+
+-----------------------------------------------
+CPU time used                    :  00:00:24.06
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = XMAC.lan, Darwin
+
+STB_Bits
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 134217728,  r =  0,   s = 32,   L = 16,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  265
+Chi-square statistic                  :  242.26
+p-value of test                       :    0.84
+
+-----------------------------------------------
+CPU time used                    :  00:00:25.26
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = XMAC.lan, Darwin
+
+STB_Bits
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 67108864,  r =  0,   s = 32,   L = 32,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  553
+Chi-square statistic                  :  481.71
+p-value of test                       :    0.99
+
+-----------------------------------------------
+CPU time used                    :  00:00:24.55
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = XMAC.lan, Darwin
+
+STB_Bits
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 33554432,  r =  0,   s = 32,   L = 64,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          : 1013
+Chi-square statistic                  :  977.59
+p-value of test                       :    0.78
+
+-----------------------------------------------
+CPU time used                    :  00:00:24.51
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = XMAC.lan, Darwin
+
+STB_Bits
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N =  5,  n = 858993409,  r =  0,   s = 32,   d = 1
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.16
+p-value of test                       :    0.70
+
+Kolmogorov-Smirnov- statistic = D-    :    0.33
+p-value of test                       :    0.27
+
+Anderson-Darling statistic = A2       :    0.54
+p-value of test                       :    0.70
+
+Tests on the sum of all N observations
+Standardized normal statistic         :    0.62
+p-value of test                       :    0.27
+
+Sample variance                       :    0.59
+p-value of test                       :    0.67
+
+-----------------------------------------------
+CPU time used                    :  00:00:24.62
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = XMAC.lan, Darwin
+
+STB_Bits
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N =  5,  n = 858993410,  r =  0,   s = 32,   d = 2
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.42
+p-value of test                       :    0.13
+
+Kolmogorov-Smirnov- statistic = D-    :    0.11
+p-value of test                       :    0.84
+
+Anderson-Darling statistic = A2       :    1.00
+p-value of test                       :    0.35
+
+Tests on the sum of all N observations
+Standardized normal statistic         :   -1.13
+p-value of test                       :    0.87
+
+Sample variance                       :    1.68
+p-value of test                       :    0.15
+
+-----------------------------------------------
+CPU time used                    :  00:00:24.83
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = XMAC.lan, Darwin
+
+STB_Bits
+
+
+sstring_Run test:
+-----------------------------------------------
+   N =  1,  n = 858993459,  r =  0,   s =   32
+
+
+-----------------------------------------------
+Total number of 1 runs:  858993459
+
+Number of degrees of freedom          :   52
+Chi2 statistic for number of runs     :   53.03
+p-value of test                       :    0.43
+
+
+-----------------------------------------------
+Total number of bits:  3435944896
+
+Normal statistic for number of bits   :   -0.35
+p-value of test                       :    0.64
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:30.50
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = XMAC.lan, Darwin
+
+STB_Bits
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 4194304,  r =  0,    s = 32,    L = 32,    k = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    4
+Chi-square statistic                  :   10.23
+p-value of test                       :    0.04
+
+-----------------------------------------------
+CPU time used                    :  00:00:37.14
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = XMAC.lan, Darwin
+
+STB_Bits
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 41943,  r =  0,    s = 32,    L = 320,    k = 320
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    4.38
+p-value of test                       :    0.22
+
+-----------------------------------------------
+CPU time used                    :  00:00:42.12
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = XMAC.lan, Darwin
+
+STB_Bits
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 4096,  r =  0,    s = 32,    L = 1024,    k = 1024
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    6.94
+p-value of test                       :    0.07
+
+-----------------------------------------------
+CPU time used                    :  00:00:49.12
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = XMAC.lan, Darwin
+
+STB_Bits
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 33554432,  r =  0,   s = 32,   L0 =  128,   L1 =  128
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   56
+ChiSquare statistic                   :   59.30
+p-value of test                       :    0.36
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   56
+ChiSquare statistic                   :   68.56
+p-value of test                       :    0.12
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   64
+ChiSquare statistic                   :   80.10
+p-value of test                       :    0.08
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   45
+ChiSquare statistic                   :   37.46
+p-value of test                       :    0.78
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   28
+ChiSquare statistic                   :   38.93
+p-value of test                       :    0.08
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:37.11
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = XMAC.lan, Darwin
+
+STB_Bits
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 4194304,  r =  0,   s = 32,   L0 = 1024,   L1 = 1024
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  140
+ChiSquare statistic                   :  143.56
+p-value of test                       :    0.40
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  141
+ChiSquare statistic                   :  148.77
+p-value of test                       :    0.31
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  512
+ChiSquare statistic                   :  546.90
+p-value of test                       :    0.14
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  133
+ChiSquare statistic                   :  142.87
+p-value of test                       :    0.26
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   72
+ChiSquare statistic                   :   59.28
+p-value of test                       :    0.86
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:33.45
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = XMAC.lan, Darwin
+
+STB_Bits
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 428810,  r =  0,   s = 32,   L0 = 10016,   L1 = 10016
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  360
+ChiSquare statistic                   :  397.04
+p-value of test                       :    0.09
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  361
+ChiSquare statistic                   :  379.76
+p-value of test                       :    0.24
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          : 5008
+ChiSquare statistic                   : 5055.38
+p-value of test                       :    0.32
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  356
+ChiSquare statistic                   :  337.05
+p-value of test                       :    0.76
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :  190
+ChiSquare statistic                   :  225.35
+p-value of test                       :    0.04
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:31.67
+
+Generator state:
+
+
+
+
+
+========= Summary results of Rabbit =========
+
+ Version:          TestU01 1.2.3
+ Generator:        STB_Bits
+ Number of bits:   4294967296
+ Number of statistics:  40
+ Total CPU time:   00:13:52.59
+
+ All tests were passed
+
+
+
